@@ -1,0 +1,11 @@
+.imagen-bg{
+    background-image: url("../assets/670.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container.py-5{
+    box-sizing: border-box;
+    overflow: hidden;
+}
