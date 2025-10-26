@@ -200,7 +200,7 @@ export default function RegisterForm() {
                             checked={formData.terminos}
                             onChange={handleChange}
                             required />
-                        <label className="form-check-label" htmlFor="terminos">
+                        <label className="form-check-label mb-3" htmlFor="terminos">
                             Acepto los términos y condiciones
                         </label>
                     </div>
@@ -214,7 +214,7 @@ export default function RegisterForm() {
                 </form>
 
                 <p className="mt-3 text-center">
-                    ¿Ya tienes una cuenta? <a href="#">Inicia sesión</a>
+                    ¿Ya tienes una cuenta? <a href="/login">Inicia sesión</a>
                 </p>
             </div>
 
